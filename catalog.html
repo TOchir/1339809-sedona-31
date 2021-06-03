@@ -5,11 +5,10 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
    <header>
     <nav>
     <a href="index.html">
-      <img src="https://via.placeholder.com/138x70" alt="Логотип города Седоны»">
+      <img src="img/Новая папка/logo.svg" alt="Логотип города Седоны»">
     </a>
        <ul>
         <li><a href="blank.html">Информация</a></li>
@@ -45,68 +44,58 @@
             <legend>Тип жилья:</legend>
              <ul>
                 <li>
-                <input type="checkbox" name="hotel" id="filter-hotel" checked>
-                <label for="filter-hotel">Гостиница</label>
-               </li>
-            <li>
-                <input type="checkbox" name="motel" id="filter-motel" checked>
-                <label for="filter-motel">Мотель</label>
-            </li>
-            <li>
-                <input type="checkbox" name="apartments" id="filter-apartments" checked>
-                <label for="filter-apartments">Аппартаменты</label>
-            </li>
-            </ul>
+                    <input type="checkbox" name="hotel" id="filter-hotel" checked>
+                    <label for="filter-hotel">Гостиница</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="motel" id="filter-motel" checked>
+                    <label for="filter-motel">Мотель</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="apartments" id="filter-apartments" checked>
+                    <label for="filter-apartments">Аппартаменты</label>
+                </li>
+                </ul>
           </fieldset>
           <fieldset>
             <legend>Стоимость в сутки,₽:</legend>
-            <table>
-                <tr>
-                    <td>
                         <input type="text" name="from" value="ОТ 0">
-                    </td>
-                    <td>
                         <input type="text" name="to" value="ДО 3000">
-                    </td>
-                </tr>
-            </table>
           </fieldset>
           <button type="submit">Показать</button>
   </section>
   <section>
-    <h2>Результат</h2>
-    <p>Сортировка:</p>
-    <ul>
-      <li>
-        <a href="catalog.html">По цене</a>
-      </li>
-      <li>
-        <a href="catalog.html">По типу</a>
-      </li>
-      <li>
-        <a href="catalog.html">По рейтингу</a>
-      </li>
-      <button type="button">▲</button>
-      <button type="button" checked>▼</button>
-            <li>
-        <h3>Гостиница</h3>
-        <img src="https://via.placeholder.com/135x90" alt="#">
-        <p>AMARA RESORT & SPA</p>
-        <p>
-            Гостиница
-            от 4000р<br>
-            <button type="button">Подробнее</button>
-            <button type="button">Забронировать</button>
-        </p>
-        <p>
-****<br>
-рейтинг:8,5
-        </p>
+      <h2>Результат</h2>
+          <p>Сортировка:</p>
+            <ul>
+              <li>
+                 <a href="catalog.html">По цене</a>
+              </li>
+              <li>
+                 <a href="catalog.html">По типу</a>
+              </li>
+              <li>
+                 <a href="catalog.html">По рейтингу</a>
+              </li>
+                 <button type="button">▲</button>
+                 <button type="button" checked>▼</button>
+              <li>
+      <h3>AMARA RESORT & SPA</h3>
+         <img src="img/catalog/Layer 21.jpg" width="135" height="90" alt="#">
+         <p>
+             Гостиница
+             от 4000р<br>
+             <button type="button">Подробнее</button>
+             <button type="button">Забронировать</button>
+         </p>
+         <p>
+             ****
+             рейтинг:8,5
+         </p>
              </li>
              <li>
-                <h3>Мотель</h3>
-                <img src="https://via.placeholder.com/135x90" alt="#">
-                <p>DESERT QUAIL INN</p>
+                <h3>DESERT QUAIL INN</h3>
+                <img src="img/catalog/Layer 89 copy.jpg" width="135" height="90" alt="#">
                 <p>
                     Мотель
                     от 3000р<br>
@@ -114,26 +103,25 @@
                     <button type="button">Забронировать</button>
                 </p>
                 <p>
-        ***<br>
-        рейтинг:8,9
+                    ***
+                    рейтинг:8,9
                 </p>
-                     </li>
-                     <li>
-                        <h3>Апартаменты</h3>
-                        <img src="https://via.placeholder.com/135x90" alt="#">
-                        <p>VILLAS AT POCO DIABLO</p>
-                        <p>
-                            Апартаменты
-                            от 2000р<br>
-                            <button type="button">Подробнее</button>
-                            <button type="button">Забронировать</button>
-                        </p>
-                        <p>
-                **<br>
-                рейтинг:9,2
-                        </p>
-                    </li>
-    </ul>
+              </li>
+              <li>
+                <h3>VILLAS AT POCO DIABLO</h3>
+                <img src="img/catalog/Rectangle.png" width="135" height="90" alt="#">
+                <p>
+                    Апартаменты
+                    от 2000р<br>
+                    <button type="button">Подробнее</button>
+                    <button type="button">Забронировать</button>
+                </p>
+                <p>
+                    **
+                    рейтинг:9,2
+                </p>
+              </li>
+            </ul>
   </section>
 </main>
 <footer>
